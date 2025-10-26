@@ -15,6 +15,7 @@
 body{
     display: flex;
     margin: 0px;
+    padding: 0em;
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
@@ -148,4 +149,24 @@ border-radius: 50%;
 .c3{
     margin-block-start: 4em;
     margin-inline-end: 0em;
+}
+
+@media  screen and (width<400px) {
+   .detailbox{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   }
+   .r2,.r3{
+    margin-inline-start: 0em;
+   }
+   .cardbox{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .c1,.c2,.c3{
+    margin-block-start: 1em;
+   }
 }
