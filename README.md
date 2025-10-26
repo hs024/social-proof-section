@@ -60,7 +60,7 @@ _Refer to the design preview (`./design/desktop-preview.jpg`). The implementatio
 ## Deployment
 
 Project hosted using GitHub Page:
-
+https://hs024.github.io/social-proof-section/
 
 ## Acknowledgments
 
